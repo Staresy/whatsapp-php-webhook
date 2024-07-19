@@ -7,7 +7,7 @@
  * */
 
 $hubVerifyToken = 'my_token';
-$accessToken = '';
+$accessToken = 'EAAMBj7BSd38BO4YuYIAzHWH1bXwlPnRdA97n5ApYb806jZARS90uBNQ280vLdEFmSPff2J2b5pwcGlY0688H2KOZCxJNOh7ZC8bL3ApSxmf29QK9aH5WCAIExlZAYqmalhnhoc3TuJ2B3iZAtZABGotvrjy1iaJ0MT5YFQBrLGf0AACkofQwJ3OknlIA2ryZCKh3G1NDE9VKAi1vzJY';
 
 // Verify the webhook
 if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['hub_challenge']) && isset($_GET['hub_verify_token']) && $_GET['hub_verify_token'] === $hubVerifyToken) {
